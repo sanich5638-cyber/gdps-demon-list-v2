@@ -1,0 +1,454 @@
+{
+  "levels": [
+    {
+      "id": 185,
+      "name": "Road to hell",
+      "author": "DudeArctik",
+      "creators": ["DudeArctik"],
+      "verifier": "",
+      "verification": "",
+      "status": "In verification",
+      "percentToQualify": 1,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "DudeArctik",
+          "percent": 1.88,
+          "link": "https://www.youtube.com/watch?v=link_to_DudeArctik_attempt"
+        },
+        {
+          "user": "Extreme", 
+          "percent": 1.11,
+          "link": "https://www.youtube.com/watch?v=link_to_Extreme_attempt"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Silent Yatagista",
+      "author": "DudeArctik", 
+      "creators": ["DudeArctik", "Extreme", "Skrejj009"],
+      "verifier": "",
+      "verification": "",
+      "status": "In verification",
+      "percentToQualify": 10,
+      "password": "Not Copyable",
+      "records": [
+        {
+          "user": "Silent",
+          "percent": 11,
+          "link": "https://www.youtube.com/watch?v=MgJeijBGKHU"
+        },
+        {
+          "user": "Skrejj009r",
+          "percent": 19,
+          "link": "https://www.youtube.com/watch?v=MgJeijBGKHU"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Pulsar",
+      "author": "Gdsher228",
+      "creators": ["Gdsher228"],
+      "verifier": "Gdsher228",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc", 
+      "percentToQualify": 35,
+      "password": "Free To Copy",
+      "records": [
+        {
+          "user": "Skrejj009",
+          "percent": 65,
+          "link": "https://www.youtube.com/watch?v=link_to_players_video_1"
+        }
+      ]
+    },
+    {
+      "id": 101, 
+      "name": "Fire hell",
+      "author": "DudeArctik",
+      "creators": ["DudeArctik", "Skrejj009r"],
+      "verifier": "Skrejj009r",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "DudeArctik", 
+          "percent": 46,
+          "link": "https://www.youtube.com/watch?v=link_to_players_video_1"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "name": "Love is",
+      "author": "nocssnew",
+      "creators": ["nocssnew"],
+      "verifier": "nocssnew's friend", 
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "nocssnew's friend",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_friend_victory"
+        },
+        {
+          "user": "Nagasaki",
+          "percent": 100, 
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory",
+          "comment": "возможно читер"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        },
+        {
+          "user": "DudeArctik",
+          "percent": 2,
+          "link": "https://www.youtube.com/watch?v=link_to_DudeArctik_attempt" 
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "HeartBeat",
+      "author": "Nagasaki",
+      "creators": ["Nagasaki"],
+      "verifier": "Zoink",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "Nagasaki",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Sweet dream",
+      "author": "Nagasaki", 
+      "creators": ["Nagasaki"],
+      "verifier": "Nagasaki",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": []
+    },
+    {
+      "id": 158,
+      "name": "every start",
+      "author": "Max2526462",
+      "creators": ["Max2526462"],
+      "verifier": "Unknown",
+      "verification": "No data",
+      "percentToQualify": 35,
+      "password": "free to copy", 
+      "records": [
+        {
+          "user": "Nagasaki",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        },
+        {
+          "user": "DudeArctik",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_DudeArctik_victory"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Hard demon",
+      "author": "a11vaw",
+      "creators": ["a11vaw"],
+      "verifier": "a11vaw",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": []
+    },
+    {
+      "id": 117,
+      "name": "Silent",
+      "author": "Extreme", 
+      "creators": ["Extreme"],
+      "verifier": "Extreme",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "Extreme",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=MgJeijBGKHU"
+        },
+        {
+          "user": "Skrejj009",
+          "percent": 99,
+          "link": "https://www.youtube.com/watch?v=MgJeijBGKHU"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "Creo Sphere",
+      "author": "Nagasaki",
+      "creators": ["Nagasaki"],
+      "verifier": "Nagasaki",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        },
+        {
+          "user": "Nagasaki", 
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "name": "kocmoc",
+      "author": "The4lovek",
+      "creators": ["The4lovek"],
+      "verifier": "Tonyeye",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "Extreme",
+          "percent": 3,
+          "link": "https://www.youtube.com/watch?v=link_to_Extreme_attempt",
+          "comment": "Был занят, даже не пытался"
+        },
+        {
+          "user": "Nagasaki",
+          "percent": 100, 
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "name": "When you find m3",
+      "author": "Tonyeye",
+      "creators": ["Tonyeye"],
+      "verifier": "Tonyeye",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "DudeArctik",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_DudeArctik_victory"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "name": "fallen angel",
+      "author": "Nagasaki",
+      "creators": ["Nagasaki"],
+      "verifier": "zoink",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "Nagasaki",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "name": "You love again",
+      "author": "Gogolik22",
+      "creators": ["Nocssnew"],
+      "verifier": "",
+      "verification": "",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": []
+    },
+    {
+      "id": 133,
+      "name": "Blaster temple",
+      "author": "Max2526462",
+      "creators": ["Max2526462"],
+      "verifier": "Extreme",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "Gogolik22",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Gogolik22_victory"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        },
+        {
+          "user": "Nagasaki",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        },
+        {
+          "user": "Max2526462",
+          "percent": 7,
+          "link": "https://www.youtube.com/watch?v=link_to_Max2526462_attempt"
+        },
+        {
+          "user": "DudeArctik",
+          "percent": 7,
+          "link": "https://www.youtube.com/watch?v=link_to_DudeArctik_attempt"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Purgatori",
+      "author": "Max2526362",
+      "creators": ["Max2526362"],
+      "verifier": "Unknown",
+      "verification": "",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": [
+        {
+          "user": "Nagasaki",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        },
+        {
+          "user": "Gogolik22",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Gogolik22_victory"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "Ostrov Alpha",
+      "author": "gogolik22",
+      "creators": ["gogolik22"],
+      "verifier": "Extreme",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "Free To Copy",
+      "records": [
+        {
+          "user": "Nagasaki",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Nagasaki_victory"
+        },
+        {
+          "user": "Tonyeye",
+          "percent": 100,
+          "link": "https://www.youtube.com/watch?v=link_to_Tonyeye_victory"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "OCTPOB",
+      "author": "Unizart",
+      "creators": ["Unizart"],
+      "verifier": "Extreme",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": []
+    },
+    {
+      "id": 197,
+      "name": "Deadworld",
+      "author": "Max2526462",
+      "creators": ["Max2526462"],
+      "verifier": "",
+      "verification": "",
+      "percentToQualify": 35,
+      "password": "free to copy",
+      "records": []
+    },
+    {
+      "id": 157,
+      "name": "dreams",
+      "author": "zoink",
+      "creators": ["zoink"],
+      "verifier": "zoink",
+      "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
+      "percentToQualify": 100,
+      "password": "free to copy",
+      "levelType": "Platformer",
+      "records": [
+        {
+          "user": "DudeArctik",
+          "time": "1:17.295",
+          "link": "https://www.youtube.com/watch?v=link_to_DudeArctik_run"
+        }
+      ]
+    }
+  ]
+}
+```
+
+📂 Структура папки:
+
+```
+📁 demon-list/
+   ├── 📄 index.html    (ваш готовый код)
+   └── 📄 data.json     (файл выше)
+```
+
+🚀 Запуск:
+
+1. Создайте папку demon-list
+2. Сохраните ваш код как index.html
+3. Сохраните JSON код как data.json
+4. Откройте index.html в браузере
+
+Всё готово! Ваш сайт будет работать! 🎉
