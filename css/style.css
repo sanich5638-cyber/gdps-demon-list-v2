@@ -1,1 +1,37 @@
+/* ОЧЕНЬ ПРОСТЫЕ СТИЛИ ДЛЯ ПРОВЕРКИ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    color: white;
+}
 
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.demon-list {
+    width: 300px;
+    background: #2a2a2a;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.demon-item {
+    padding: 10px;
+    margin: 5px 0;
+    background: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.demon-item:hover {
+    background: #444;
+}
+
+.demon-details {
+    flex: 1;
+    padding: 20px;
+}
