@@ -1,6 +1,11 @@
 <!-- ДЕТАЛИ УРОВНЯ -->
 <div class="level-details">
-    <div v-if="selectedDemon === null" class="loading-state">
+    <div v-if="loading" class="loading-state">
+        <div class="section-title">Loading...</div>
+        <p>Please wait while we load the demon list</p>
+    </div>
+    
+    <div v-else-if="selectedDemon === null" class="loading-state">
         <div class="section-title">Select a demon</div>
         <p>Choose a level from the list to view details</p>
     </div>
@@ -24,7 +29,7 @@
                 <div class="stat-label">To Qualify</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">{{ currentDemon.records.length }}</div>
+                <div class="stat-value">{{ currentDemon.records ? currentDemon.records.length : 0 }}</div>
                 <div class="stat-label">Records</div>
             </div>
             <div class="stat-card">
@@ -32,13 +37,13 @@
                 <div class="stat-label">Level ID</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value">{{ currentDemon.password }}</div>
+                <div class="stat-value">{{ currentDemon.password || 'N/A' }}</div>
                 <div class="stat-label">Password</div>
             </div>
         </div>
         
         <!-- ИНФОРМАЦИЯ О СОЗДАТЕЛЯХ -->
-        <div class="info-section">
+        <div class="info-section" v-if="currentDemon.creators">
             <div class="section-title">Creators</div>
             <div class="creators-list">
                 {{ getCreatorsText(currentDemon.creators) }}
@@ -53,7 +58,7 @@
                     <span class="info-label">Verifier:</span>
                     <span class="info-value">{{ currentDemon.verifier }}</span>
                 </div>
-                <div v-if="hasVerification()" class="info-item">
+                <div v-if="hasVerification() && currentDemon.verification" class="info-item">
                     <span class="info-label">Video:</span>
                     <a :href="currentDemon.verification" target="_blank" class="video-link">Watch Verification</a>
                 </div>
@@ -63,10 +68,10 @@
         <!-- РЕКОРДЫ -->
         <div class="records-section">
             <div class="section-title">
-                Records ({{ currentDemon.records.length }})
+                Records ({{ currentDemon.records ? currentDemon.records.length : 0 }})
             </div>
             
-            <div class="records-list" v-if="currentDemon.records.length > 0">
+            <div class="records-list" v-if="currentDemon.records && currentDemon.records.length > 0">
                 <div 
                     v-for="(record, recordIndex) in currentDemon.records" 
                     :key="recordIndex"
@@ -90,4 +95,4 @@
             </div>
         </div>
     </div>
-</div>
+            </div>
