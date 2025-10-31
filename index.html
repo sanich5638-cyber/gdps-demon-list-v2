@@ -1,66 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=1024" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>GDPSTop Demons</title>
-        <link rel="icon" href="/list_icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" type="text/css" href="/css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="/css/typography.css" />
-        <link rel="stylesheet" type="text/css" href="/css/main.css" />
-        <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="/css/pages/leaderboard.css"
-        />
-        <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
-        <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
-        <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="/css/components/tabs.css"
-        />
-        <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
-        <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
-        <script type="module" src="/js/main.js"></script>
+        <style>
+            /* БАЗОВЫЕ СТИЛИ ЧТОБЫ СРАЗУ РАБОТАЛО */
+            * { 
+                margin: 0; 
+                padding: 0; 
+                box-sizing: border-box; 
+            }
+            
+            body {
+                font-family: 'Lexend Deca', sans-serif;
+                background: #1a1a1a;
+                color: white;
+                margin: 0;
+                padding: 0;
+            }
+            
+            #app {
+                min-height: 100vh;
+            }
+            
+            header {
+                background: #2a2a2a;
+                padding: 15px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #333;
+            }
+            
+            .logo h2 {
+                color: white;
+                margin: 0;
+            }
+            
+            .logo p {
+                color: #888;
+                margin: 0;
+                font-size: 14px;
+            }
+            
+            .nav {
+                display: flex;
+                gap: 20px;
+            }
+            
+            .nav__tab {
+                color: white;
+                text-decoration: none;
+                padding: 10px 15px;
+                border-radius: 5px;
+                transition: background 0.3s;
+            }
+            
+            .nav__tab:hover {
+                background: #333;
+            }
+            
+            .nav__tab.router-link-active {
+                background: #0066cc;
+            }
+            
+            .nav__actions {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+            
+            .nav__icon {
+                background: none;
+                border: none;
+                color: white;
+                cursor: pointer;
+                padding: 5px;
+            }
+            
+            /* ДЛЯ ТЕСТА - УБРАТЬ ПОТОМ */
+            .demo-message {
+                padding: 50px;
+                text-align: center;
+                font-size: 24px;
+                color: #4CAF50;
+            }
+        </style>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.js"></script>
     </head>
-    <body id="app">
-        <header :class="{ dark: store.dark }">
-            <div class="logo">
-                <h2>GDPSTop Demons</h2>
-                <p>v1.0.0</p>
-            </div>
-            <nav class="nav">
-                <router-link class="nav__tab" to="/">
-                    <span class="type-label-lg">List</span>
-                </router-link>
-                <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Leaderboard</span>
-                </router-link>
-                <router-link class="nav__tab" to="/roulette">
-                    <span class="type-label-lg">Roulette</span>
-                </router-link>
-                <div class="nav__actions">
-                    <button
-                        class="nav__icon"
-                        @click.prevent="store.toggleDark()"
-                    >
-                        <img
-                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
-                            alt=""
-                        />
-                    </button>
+    <body>
+        <div id="app">
+            <!-- ВРЕМЕННЫЙ КОНТЕНТ ДЛЯ ПРОВЕРКИ -->
+            <header>
+                <div class="logo">
+                    <h2>GDPSTop Demons</h2>
+                    <p>v1.0.0</p>
                 </div>
-            </nav>
-        </header>
-        <router-view :class="{ dark: store.dark }"></router-view>
+                <nav class="nav">
+                    <a class="nav__tab">List</a>
+                    <a class="nav__tab">Leaderboard</a>
+                    <a class="nav__tab">Roulette</a>
+                    <div class="nav__actions">
+                        <button class="nav__icon">🌙</button>
+                    </div>
+                </nav>
+            </header>
+            
+            <div class="demo-message">
+                🎉 САЙТ РАБОТАЕТ!<br>
+                <small>Vue.js загружается...</small>
+            </div>
+        </div>
+
+        <script>
+            // ПРОСТЕЙШИЙ VUE.JS ДЛЯ ПРОВЕРКИ
+            try {
+                const { createApp } = Vue;
+                
+                createApp({
+                    data() {
+                        return {
+                            message: "✅ Vue.js работает!",
+                            demons: ["Road to hell", "Silent Yatagista", "Fire hell"]
+                        }
+                    },
+                    mounted() {
+                        console.log("🎮 Демон-лист запущен!");
+                    }
+                }).mount('#app');
+                
+            } catch (error) {
+                console.error("❌ Ошибка Vue:", error);
+                document.getElementById('app').innerHTML = 
+                    '<div style="padding: 50px; text-align: center; color: red;">' +
+                    '❌ Ошибка: ' + error.message + '</div>';
+            }
+        </script>
     </body>
 </html>
