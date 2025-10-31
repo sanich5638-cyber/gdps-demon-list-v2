@@ -1,7 +1,5 @@
-// БАЗОВЫЙ VUE.JS КОД
-const { createApp } = Vue;
-
-createApp({
+// ПРОСТОЙ VUE.JS БЕЗ МОДУЛЕЙ
+Vue.createApp({
     data() {
         return {
             message: "🎉 Демон-лист работает!",
